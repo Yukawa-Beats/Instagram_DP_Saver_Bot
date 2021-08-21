@@ -12,11 +12,15 @@ TOKEN = os.getenv("BOT_TOKEN")
 APP_NAME = os.getenv("APP_NAME")
 TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
 
-START_MSG = '''*Welcome To the Bot🖐🖐*
+START_MSG = '''ഹായ്🙋🏻‍♂️
 
-_Send me anyones instagram username to get their DP_
+ഞാൻ ഒരു ഇൻസ്റ്റ ഡിപി സേവർ ബോട്ട് ആണ്..🤩
 
-*ex :* `mrk_yt_`...., *etc*'''
+എന്നെ ക്രിയേറ്റ് ചെയ്തത് @chekuthan_0405 ആണ്..👑
+
+ആരുടെ ഇൻസ്റ്റാഗ്രാം ഡിപി ആണോ സേവ് ആക്കേണ്ടത്..അവരുടെ യൂസർ നെയിം ( ex : yukawa_beats) സെന്റ് ചെയ്യുക..
+
+അപ്പൊ തുടങ്ങാം അല്ലെ..🤪🤪'''
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
