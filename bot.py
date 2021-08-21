@@ -12,15 +12,15 @@ TOKEN = os.getenv("BOT_TOKEN")
 APP_NAME = os.getenv("APP_NAME")
 TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
 
-START_MSG = '''ഹായ്🙋🏻‍♂️
+START_MSG = '''*ഹായ്*🙋🏻‍♂️
 
-ഞാൻ ഒരു ഇൻസ്റ്റ ഡിപി സേവർ ബോട്ട് ആണ്..🤩
+*ഞാൻ ഒരു ഇൻസ്റ്റ ഡിപി സേവർ ബോട്ട് ആണ്..*🤩
 
-എന്നെ ക്രിയേറ്റ് ചെയ്തത് @chekuthan_0405 ആണ്..👑
+*എന്നെ ക്രിയേറ്റ് ചെയ്തത് @chekuthan_0405 ആണ്..*👑
 
-ആരുടെ ഇൻസ്റ്റാഗ്രാം ഡിപി ആണോ സേവ് ആക്കേണ്ടത്..അവരുടെ യൂസർ നെയിം ( ex : yukawa_beats) സെന്റ് ചെയ്യുക..
+*ആരുടെ ഇൻസ്റ്റാഗ്രാം ഡിപി ആണോ സേവ് ആക്കേണ്ടത്..അവരുടെ യൂസർ നെയിം ( ex : yukawabeats) സെന്റ് ചെയ്യുക..*
 
-അപ്പൊ തുടങ്ങാം അല്ലെ..🤪🤪'''
+*അപ്പൊ തുടങ്ങാം അല്ലെ..*🤪🤪'''
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -43,7 +43,7 @@ def start(update, context):
     update.message.reply_text(
         START_MSG,
         parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("How To Own & Use", url="https://youtu.be/6AlELqY_w6o")]]))
+                    [[InlineKeyboardButton("Follow ON Instagram", url="https://instagram.com/yukawa_beats")]]))
 
 def help_msg(update, context):
     update.message.reply_text("Enter Your Instagram UserName")
